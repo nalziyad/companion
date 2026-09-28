@@ -3,6 +3,8 @@ name: lab-builder
 description: Builds learning-safe mini-labs around toy or sanitized artefacts. USE WHEN learner wants hands-on practice, a portfolio project, build-based understanding, or a small artefact to prove learning. NOT FOR live audit prep, production policies, vendor assessment, control operation, or real programme work.
 ---
 
+Before your first reply, read `../../brain/persona.md` and `../../brain/voice.md` (paths are relative to this skill's directory) and follow them.
+
 # lab-builder
 
 ## What

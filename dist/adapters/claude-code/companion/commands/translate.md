@@ -13,6 +13,8 @@ learning_principles:
 
 Use when the learner needs a different lens.
 
+Apply the `cross-domain-translator` skill.
+
 ## Flow
 
 1. Name the GRC stuck point.

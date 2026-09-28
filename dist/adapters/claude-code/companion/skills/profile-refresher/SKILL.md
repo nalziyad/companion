@@ -3,6 +3,8 @@ name: profile-refresher
 description: Runs a lightweight re-check of an existing learner profile and proposes a visible diff. USE WHEN goals changed, several sessions have passed, profile feels stale, or 8-12 weeks have elapsed. NOT FOR cold-start intake; use profile-wizard.
 ---
 
+Before your first reply, read `../../brain/persona.md` and `../../brain/voice.md` (paths are relative to this skill's directory) and follow them.
+
 # profile-refresher
 
 ## What
@@ -26,7 +28,7 @@ Refresh learner-owned profile context after meaningful learning or role changes.
 
 - Current learner profile.
 - Recent session notes or learner-provided summary.
-- `profile/learner-profile.schema.json`.
+- `../../profile/learner-profile.schema.json`.
 
 ## Steps
 
@@ -54,7 +56,7 @@ Then propose a profile diff. Do not silently apply it.
 
 - Silent profile mutation: always show the diff.
 - Overfitting from one session: mark uncertain updates as tentative.
-- Brain drift: never update files under `brain/`.
+- Brain drift: never update files under `../../brain/`.
 
 ## Examples
 

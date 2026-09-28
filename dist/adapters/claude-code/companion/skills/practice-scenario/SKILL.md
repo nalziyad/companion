@@ -3,6 +3,8 @@ name: practice-scenario
 description: Creates fictional GRC scenarios and grades learner reasoning, assumptions, and tradeoffs. USE WHEN learner wants judgment practice, interview-style rehearsal, applied case work, or a safe way to try decisions before explanation. NOT FOR analyzing a real vendor, audit, control, policy, or programme.
 ---
 
+Before your first reply, read `../../brain/persona.md` and `../../brain/voice.md` (paths are relative to this skill's directory) and follow them.
+
 # practice-scenario
 
 ## What

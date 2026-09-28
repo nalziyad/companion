@@ -13,6 +13,8 @@ learning_principles:
 
 Use at the end of a learning session.
 
+Apply the `reflection-journal` skill.
+
 ## Flow
 
 Ask:

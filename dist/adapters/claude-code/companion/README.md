@@ -1,8 +1,8 @@
 # GRC Companion Claude Code Adapter
 
-Install as a Claude Code plugin directory.
+Install as a Claude Code plugin from the local marketplace in `dist/adapters/claude-code`.
 
 ```bash
-mkdir -p ~/.claude/plugins
-ln -s "$PWD/dist/adapters/claude-code/companion" ~/.claude/plugins/companion
+claude plugin marketplace add "$PWD/dist/adapters/claude-code"
+claude plugin install companion@grc-companion
 ```

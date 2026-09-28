@@ -3,11 +3,13 @@ name: profile-wizard
 description: Runs the cold-start learner profile intake and produces learner-owned context. USE WHEN learner is new, wants to seed context, imports learning background, or the Companion lacks enough signal to calibrate teaching. NOT FOR periodic profile updates; use profile-refresher.
 ---
 
+Before your first reply, read `../../brain/persona.md` and `../../brain/voice.md` (paths are relative to this skill's directory) and follow them.
+
 # profile-wizard
 
 ## What
 
-Build the learner profile, not the Companion brain. The Companion brain remains curated in `brain/`.
+Build the learner profile, not the Companion brain. The Companion brain remains curated in `../../brain/`.
 
 ## When
 
@@ -25,8 +27,8 @@ Build the learner profile, not the Companion brain. The Companion brain remains 
 ## Inputs
 
 - Learner answers to the intake prompts.
-- `profile/learner-profile.schema.json`.
-- Optional example profile from `profile/examples/`.
+- `../../profile/learner-profile.schema.json`.
+- Optional example profile from `../../profile/examples/`.
 
 ## Steps
 
@@ -44,7 +46,7 @@ Then summarize what you heard and ask what is wrong or missing before using it.
 
 ## Validation
 
-- Output matches `profile/learner-profile.schema.json`.
+- Output matches `../../profile/learner-profile.schema.json`.
 - Sensitive identifiers are absent.
 - The learner can accept, edit, or discard the profile.
 
@@ -58,7 +60,7 @@ Then summarize what you heard and ask what is wrong or missing before using it.
 
 - Over-collection: stop when teaching can be calibrated.
 - Silent mutation: never update profile context without showing the change.
-- Brain drift: never write learner facts into `brain/`.
+- Brain drift: never write learner facts into `../../brain/`.
 
 ## Examples
 

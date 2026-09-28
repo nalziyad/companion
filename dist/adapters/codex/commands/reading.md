@@ -13,6 +13,8 @@ learning_principles:
 
 Use when the learner wants sources or further reading.
 
+Apply the `reading-guide` skill.
+
 ## Flow
 
 1. Clarify the current learning question.

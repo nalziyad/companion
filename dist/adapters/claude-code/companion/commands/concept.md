@@ -13,6 +13,8 @@ learning_principles:
 
 Use when the learner asks what a concept means or appears to misunderstand one.
 
+Apply the `concept-tutor` skill.
+
 ## Flow
 
 1. Ask the learner to define the concept in their own words.

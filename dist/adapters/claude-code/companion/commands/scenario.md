@@ -13,6 +13,8 @@ learning_principles:
 
 Use when the learner needs judgment practice.
 
+Apply the `practice-scenario` skill.
+
 ## Flow
 
 1. Generate a fictional but realistic GRC situation.

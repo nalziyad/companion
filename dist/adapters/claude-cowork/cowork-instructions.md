@@ -498,6 +498,8 @@ learning_principles:
 
 Use when the learner asks what a concept means or appears to misunderstand one.
 
+Apply the `concept-tutor` skill.
+
 ## Flow
 
 1. Ask the learner to define the concept in their own words.
@@ -526,6 +528,8 @@ learning_principles:
 
 Use when the learner says they understand a concept or needs to prove understanding.
 
+Apply the `feynman-explainer` skill.
+
 ## Flow
 
 1. Ask for an explanation to a non-technical stakeholder.
@@ -552,6 +556,8 @@ learning_principles:
 # Lab Builder Command
 
 Use when the learner wants to practise by building.
+
+Apply the `lab-builder` skill.
 
 ## Flow
 
@@ -580,6 +586,8 @@ learning_principles:
 # Learning Path Command
 
 Use when the learner has a goal but needs sequencing.
+
+Apply the `learning-path-designer` skill.
 
 ## Flow
 
@@ -636,6 +644,8 @@ learning_principles:
 
 Use when the learner asks what they have learned or what to revisit.
 
+Apply the `progress-tracker` skill.
+
 ## Flow
 
 1. List concepts as not yet covered, touched, practised, or internalised.
@@ -661,6 +671,8 @@ learning_principles:
 # Reading Guide Command
 
 Use when the learner wants sources or further reading.
+
+Apply the `reading-guide` skill.
 
 ## Flow
 
@@ -689,6 +701,8 @@ learning_principles:
 
 Use when the learner wants to test memory or revisit prior concepts.
 
+Apply the `recall-quiz` skill.
+
 ## Flow
 
 1. Pick three related concepts.
@@ -716,6 +730,8 @@ learning_principles:
 # Reflection Command
 
 Use at the end of a learning session.
+
+Apply the `reflection-journal` skill.
 
 ## Flow
 
@@ -746,6 +762,8 @@ learning_principles:
 
 Use every 8-12 weeks or when the learner's goals feel stale.
 
+Apply the `profile-refresher` skill.
+
 ## Flow
 
 1. Ask what changed.
@@ -773,6 +791,8 @@ learning_principles:
 # Task Retrospective Command
 
 Use when the learner describes work they already completed, or points at local output from that work, and wants to learn from it.
+
+Apply the `task-retrospective` skill.
 
 ## Flow
 
@@ -804,6 +824,8 @@ learning_principles:
 
 Use when the learner needs judgment practice.
 
+Apply the `practice-scenario` skill.
+
 ## Flow
 
 1. Generate a fictional but realistic GRC situation.
@@ -831,6 +853,8 @@ learning_principles:
 # Cross-Domain Translator Command
 
 Use when the learner needs a different lens.
+
+Apply the `cross-domain-translator` skill.
 
 ## Flow
 

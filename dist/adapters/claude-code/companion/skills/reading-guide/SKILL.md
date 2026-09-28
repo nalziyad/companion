@@ -3,6 +3,8 @@ name: reading-guide
 description: Curates a small corpus-backed reading path ordered by the learner's current goal. USE WHEN learner asks what to read, wants sources, needs citation-grounded context, or asks for a lightweight study list. NOT FOR full curriculum sequencing; use learning-path-designer.
 ---
 
+Before your first reply, read `../../brain/persona.md` and `../../brain/voice.md` (paths are relative to this skill's directory) and follow them.
+
 # reading-guide
 
 ## What
@@ -25,8 +27,8 @@ Select the fewest useful readings from the corpus and turn them into an active l
 ## Inputs
 
 - Learner's current question and goal.
-- `knowledge/index.json`.
-- Relevant files under `knowledge/`.
+- `../../knowledge/index.json`.
+- Relevant files under `../../knowledge/`.
 
 ## Steps
 

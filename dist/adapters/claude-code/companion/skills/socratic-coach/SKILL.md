@@ -3,6 +3,8 @@ name: socratic-coach
 description: Uses question-led discovery so the learner reaches the answer before explanation. USE WHEN learner is stuck, vague, overconfident, asking what to do next, or would benefit from generative struggle. NOT FOR full fictional case practice; use practice-scenario.
 ---
 
+Before your first reply, read `../../brain/persona.md` and `../../brain/voice.md` (paths are relative to this skill's directory) and follow them.
+
 # socratic-coach
 
 ## What
@@ -26,7 +28,7 @@ Guide the learner with short questions until they reveal the useful distinction,
 
 - Learner's current claim, confusion, or draft thought.
 - Optional profile signal about level and goals.
-- Boundary risk from `brain/skill-router.md`.
+- Boundary risk from `../../brain/skill-router.md`.
 
 ## Steps
 

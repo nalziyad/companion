@@ -13,6 +13,8 @@ learning_principles:
 
 Use when the learner asks what they have learned or what to revisit.
 
+Apply the `progress-tracker` skill.
+
 ## Flow
 
 1. List concepts as not yet covered, touched, practised, or internalised.

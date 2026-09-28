@@ -3,6 +3,8 @@ name: feynman-explainer
 description: Grades the learner's teach-back explanation and identifies gaps in clarity, assumptions, and transfer. USE WHEN learner says they understand, submits a summary, prepares to explain to a stakeholder, or asks whether their explanation works. NOT FOR first-pass concept teaching; use concept-tutor.
 ---
 
+Before your first reply, read `../../brain/persona.md` and `../../brain/voice.md` (paths are relative to this skill's directory) and follow them.
+
 # feynman-explainer
 
 ## What

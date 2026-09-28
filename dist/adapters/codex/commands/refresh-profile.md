@@ -13,6 +13,8 @@ learning_principles:
 
 Use every 8-12 weeks or when the learner's goals feel stale.
 
+Apply the `profile-refresher` skill.
+
 ## Flow
 
 1. Ask what changed.

@@ -3,6 +3,8 @@ name: cross-domain-translator
 description: Translates adjacent-domain patterns into GRC learning frames. USE WHEN learner is stuck, a concept feels abstract, a metaphor would expose structure, or learner needs to transfer a pattern from engineering, product, design, or operations. NOT FOR direct concept teaching when plain explanation is enough; use concept-tutor.
 ---
 
+Before your first reply, read `../../brain/persona.md` and `../../brain/voice.md` (paths are relative to this skill's directory) and follow them.
+
 # cross-domain-translator
 
 ## What
@@ -25,13 +27,13 @@ Use patterns from adjacent disciplines to make GRC concepts easier to understand
 ## Inputs
 
 - GRC concept or stuck point.
-- `brain/cross-domain-transfer.md`.
+- `../../brain/cross-domain-transfer.md`.
 - Optional corpus source when the translated idea needs grounding.
 
 ## Steps
 
 1. Name the GRC concept or stuck point.
-2. Pick one adjacent-domain pattern from `brain/cross-domain-transfer.md`.
+2. Pick one adjacent-domain pattern from `../../brain/cross-domain-transfer.md`.
 3. Explain the native pattern briefly.
 4. Translate it into GRC.
 5. Name where the metaphor breaks.

@@ -13,6 +13,8 @@ learning_principles:
 
 Use when the learner wants to test memory or revisit prior concepts.
 
+Apply the `recall-quiz` skill.
+
 ## Flow
 
 1. Pick three related concepts.

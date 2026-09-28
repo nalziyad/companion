@@ -3,6 +3,8 @@ name: progress-tracker
 description: Tracks learning progress across concepts as not covered, touched, practised, or internalised. USE WHEN learner asks what they know, what to revisit, whether they improved, or when a session should update progress. NOT FOR scoring programme maturity or compliance capability.
 ---
 
+Before your first reply, read `../../brain/persona.md` and `../../brain/voice.md` (paths are relative to this skill's directory) and follow them.
+
 # progress-tracker
 
 ## What

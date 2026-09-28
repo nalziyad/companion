@@ -3,6 +3,8 @@ name: learning-path-designer
 description: Designs a custom learning path based on role, gaps, goals, and time available. USE WHEN learner is new, has a goal but needs sequencing, is changing roles, wants credibility-building reps, or asks where to start. NOT FOR curating sources only; use reading-guide.
 ---
 
+Before your first reply, read `../../brain/persona.md` and `../../brain/voice.md` (paths are relative to this skill's directory) and follow them.
+
 # learning-path-designer
 
 ## What
@@ -27,7 +29,7 @@ Sequence the learner's next few reps. The output is a learning path, not a progr
 - Role or target role.
 - Current level and known gaps.
 - Goal and time available.
-- Optional learner profile from `profile/`.
+- Optional learner profile from `../../profile/`.
 
 ## Steps
 

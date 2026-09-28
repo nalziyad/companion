@@ -3,6 +3,8 @@ name: task-retrospective
 description: Extracts reusable GRC learning patterns from work the learner already completed. USE WHEN learner describes finished work, points at local output, wants to learn from friction, or asks what to do better next time after acting. NOT FOR live advice, vendor decisions, audit positions, control assessment, or programme operation.
 ---
 
+Before your first reply, read `../../brain/persona.md` and `../../brain/voice.md` (paths are relative to this skill's directory) and follow them.
+
 # task-retrospective
 
 ## What
@@ -26,14 +28,14 @@ Turn work the learner already did into structured learning. The work can be real
 
 - Learner's description of completed work.
 - Real local artefacts only when intentionally provided in a local adapter.
-- `brain/task-extraction.md`.
+- `../../brain/task-extraction.md`.
 - Optional GRC primitives or corpus files for citation grounding.
 
 ## Steps
 
 1. Confirm that this is a retrospective, not operational advice.
 2. Use real local output as learning material when intentionally provided.
-3. Ask the six extraction questions from `brain/task-extraction.md`, one or two at a time.
+3. Ask the six extraction questions from `../../brain/task-extraction.md`, one or two at a time.
 4. Surface two or three patterns in the learner's process.
 5. Connect the pattern to GRC Engineering primitives or corpus ideas where relevant.
 6. Produce a small reusable learning artefact or proposed local profile/progress update.

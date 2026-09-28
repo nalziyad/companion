@@ -3,6 +3,8 @@ name: recall-quiz
 description: Runs active recall checks and lightweight spaced review across prior or selected topics. USE WHEN learner wants to test memory, revisit older concepts, prepare for explain-back, or close a session with retrieval. NOT FOR teaching a brand-new concept first; use concept-tutor.
 ---
 
+Before your first reply, read `../../brain/persona.md` and `../../brain/voice.md` (paths are relative to this skill's directory) and follow them.
+
 # recall-quiz
 
 ## What

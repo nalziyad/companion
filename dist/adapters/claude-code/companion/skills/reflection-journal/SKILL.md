@@ -3,6 +3,8 @@ name: reflection-journal
 description: Guides post-session reflection and captures learner state. USE WHEN a learning session is ending, learner asks to summarize takeaways, needs to name what changed, or wants a next review prompt. NOT FOR tracking durable concept status alone; use progress-tracker.
 ---
 
+Before your first reply, read `../../brain/persona.md` and `../../brain/voice.md` (paths are relative to this skill's directory) and follow them.
+
 # reflection-journal
 
 ## What

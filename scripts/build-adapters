@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import re
 import shutil
 from pathlib import Path
 
@@ -223,11 +224,47 @@ def notion_agent_instructions() -> str:
     )
 
 
+CLAUDE_CODE_PERSONA_LINE = (
+    "Before your first reply, read `../../brain/persona.md` and `../../brain/voice.md` "
+    "(paths are relative to this skill's directory) and follow them."
+)
+
+
+def adapt_claude_code_skill(text: str) -> str:
+    """Make a SKILL.md work inside an installed plugin.
+
+    Claude Code resolves a skill's files from the skill's own directory, so
+    repo-root paths like `brain/x.md` must become `../../brain/x.md`. The brain
+    is not otherwise loaded by the plugin, so each skill points at the persona.
+    """
+    text = re.sub(r"`(brain|knowledge|profile)/", r"`../../\1/", text)
+    frontmatter_end = text.index("\n---\n", 4) + len("\n---\n")
+    return text[:frontmatter_end] + "\n" + CLAUDE_CODE_PERSONA_LINE + "\n" + text[frontmatter_end:]
+
+
 def build_claude_code() -> None:
     root = DIST / "claude-code"
     out = root / "companion"
     reset(root)
     out.mkdir(parents=True, exist_ok=True)
+    write(
+        root / ".claude-plugin" / "marketplace.json",
+        json.dumps(
+            {
+                "name": "grc-companion",
+                "owner": {"name": "GRC Engineering", "url": "https://grc.engineering"},
+                "plugins": [
+                    {
+                        "name": "companion",
+                        "source": "./companion",
+                        "description": "Learning-only GRC engineering companion: concept tutoring, practice scenarios, recall, reflection, and mini-labs.",
+                    }
+                ],
+            },
+            indent=2,
+        )
+        + "\n",
+    )
     write(
         out / ".claude-plugin" / "plugin.json",
         json.dumps(
@@ -246,6 +283,8 @@ def build_claude_code() -> None:
     )
     copy_tree(ROOT / "commands", out / "commands")
     copy_tree(ROOT / "skills", out / "skills")
+    for skill in (out / "skills").glob("*/SKILL.md"):
+        write(skill, adapt_claude_code_skill(read(skill)))
     copy_tree(ROOT / "brain", out / "brain")
     copy_tree(ROOT / "knowledge", out / "knowledge")
     copy_tree(ROOT / "profile", out / "profile")
@@ -254,10 +293,10 @@ def build_claude_code() -> None:
     write(
         out / "README.md",
         "# GRC Companion Claude Code Adapter\n\n"
-        "Install as a Claude Code plugin directory.\n\n"
+        "Install as a Claude Code plugin from the local marketplace in `dist/adapters/claude-code`.\n\n"
         "```bash\n"
-        "mkdir -p ~/.claude/plugins\n"
-        "ln -s \"$PWD/dist/adapters/claude-code/companion\" ~/.claude/plugins/companion\n"
+        "claude plugin marketplace add \"$PWD/dist/adapters/claude-code\"\n"
+        "claude plugin install companion@grc-companion\n"
         "```\n",
     )
 

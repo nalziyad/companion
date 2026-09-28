@@ -13,6 +13,8 @@ learning_principles:
 
 Use when the learner wants to practise by building.
 
+Apply the `lab-builder` skill.
+
 ## Flow
 
 1. Clarify the learner's role, level, goal, and timebox.

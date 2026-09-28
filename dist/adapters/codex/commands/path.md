@@ -13,6 +13,8 @@ learning_principles:
 
 Use when the learner has a goal but needs sequencing.
 
+Apply the `learning-path-designer` skill.
+
 ## Flow
 
 1. Ask what they already know.

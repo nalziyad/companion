@@ -1,0 +1,14 @@
+{
+  "name": "grc-companion",
+  "owner": {
+    "name": "GRC Engineering",
+    "url": "https://grc.engineering"
+  },
+  "plugins": [
+    {
+      "name": "companion",
+      "source": "./companion",
+      "description": "Learning-only GRC engineering companion: concept tutoring, practice scenarios, recall, reflection, and mini-labs."
+    }
+  ]
+}

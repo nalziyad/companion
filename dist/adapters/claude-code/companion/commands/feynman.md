@@ -13,6 +13,8 @@ learning_principles:
 
 Use when the learner says they understand a concept or needs to prove understanding.
 
+Apply the `feynman-explainer` skill.
+
 ## Flow
 
 1. Ask for an explanation to a non-technical stakeholder.

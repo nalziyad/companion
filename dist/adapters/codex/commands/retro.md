@@ -13,6 +13,8 @@ learning_principles:
 
 Use when the learner describes work they already completed, or points at local output from that work, and wants to learn from it.
 
+Apply the `task-retrospective` skill.
+
 ## Flow
 
 1. Confirm this is a retrospective, not operational advice.

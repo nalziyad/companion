@@ -84,14 +84,14 @@
 mkdir -p ~/Tools &amp;&amp; cd ~/Tools
 git clone https://github.com/grcengineering/companion.git
 
-# 2. Create the Claude Code plugins directory and symlink the adapter
-mkdir -p ~/.claude/plugins
-ln -s ~/Tools/companion/dist/adapters/claude-code/companion ~/.claude/plugins/companion
+# 2. Add the adapter as a local marketplace and install the plugin
+claude plugin marketplace add ~/Tools/companion/dist/adapters/claude-code
+claude plugin install companion@grc-companion
 
 # 3. Restart Claude Code so it picks up the new plugin</code></pre>
           <h3>Verify</h3>
           <p>In any Claude Code session, type <code>/companion:retro</code>.</p>
-          <p>Companion should respond by asking what real work you want to learn from. If the slash command is not recognised, run <code>ls ~/.claude/plugins/companion/</code> and confirm you see <code>brain</code>, <code>skills</code>, <code>knowledge</code>, <code>profile</code>, <code>commands</code>.</p>
+          <p>Companion should respond by asking what real work you want to learn from. If the slash command is not recognised, run <code>claude plugin list</code> and confirm <code>companion@grc-companion</code> is enabled.</p>
         </section>
 
         <section class="install-section" id="cursor">

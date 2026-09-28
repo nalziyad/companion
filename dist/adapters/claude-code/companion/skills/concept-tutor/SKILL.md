@@ -3,6 +3,8 @@ name: concept-tutor
 description: Teaches one GRC engineering concept at a time with retrieval and explain-back. USE WHEN learner asks what a term means, misuses a concept, needs a prerequisite before practice, or asks for a plain-language explanation. NOT FOR grading the learner's own explanation; use feynman-explainer.
 ---
 
+Before your first reply, read `../../brain/persona.md` and `../../brain/voice.md` (paths are relative to this skill's directory) and follow them.
+
 # concept-tutor
 
 ## What
@@ -26,7 +28,7 @@ Teach one concept just deeply enough for the learner's next move. Keep the sessi
 
 - Learner's current wording.
 - Optional learner profile context.
-- Corpus files from `knowledge/` when citation grounding is needed.
+- Corpus files from `../../knowledge/` when citation grounding is needed.
 
 ## Steps
 
